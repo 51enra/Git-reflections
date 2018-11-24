@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Lines that contain differences are directly compared above each other.
+Lines that are equal are not shown.
+These two facts allow to focus on small amounts of information that are meaningful
+for the problem to be solved (finding the bug).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I will be able to retrieve useful code elements that I dropped for any reason.
+I will be able to learn from what I did earlier.
+If an error appears, it will be easy to go back to a stable version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+ Pro: I can decide when a logical amount of change has been made that justifies
+ a commit and can be meaningfully described by one comment
+ Contra: I may forget to commit in time or be prevented to commit when I should.
+ I may decide to commit at wrong intervalls (too short/long) because I didn't 
+ understand the concept properly.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+ Git was explicitly developed for SW development where frequently logical changes
+ spread across more than one file. Other version control systems were more made
+ for versioning of single documents.
+
+How can you use the commands git log and git diff to view the history of files?
+
+ Enter git log within the respective repository to list all available versions.
+ Find the one that interests you, select its version ID (vID_new) and the one of
+ the presious version (or another version that interests you) (vID_old).
+ git diff vID_new vID_old shows all differences between the versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+ If I committed another version before doing the changes, I can easily go back to that
+ version if something goes wrong or compare both versions to find the error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here 
