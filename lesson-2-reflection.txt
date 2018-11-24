@@ -12,6 +12,10 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+ Even if I changed multiple files in the working directory, in case the changes are
+ logically distinct, I can add them one by one to the staging area and do a separate
+ commit each time.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
