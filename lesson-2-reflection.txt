@@ -35,3 +35,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+ Pro: Fast; not tedious and error prone as manual
+ Con: I can't be sure that conflicts are always identified correctly. Will the 
+ automatic mode be able to identify all dependencies correctly?
