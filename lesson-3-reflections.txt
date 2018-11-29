@@ -4,3 +4,7 @@ local?
  - Being able to access the repository from different locations with different computers
  - Sharing the repository with other interested users
  - Working collaboratively on the repository
+ 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+ If different people are working in the remote repository, I may not want to have all changes or I want them at
+ a later time.
