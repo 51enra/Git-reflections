@@ -8,3 +8,10 @@ local?
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
  If different people are working in the remote repository, I may not want to have all changes or I want them at
  a later time.
+ 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+ I use fork to create a copy of another GitHub user's repository in my own GitHub account. I will then be able
+ to work with it independent of the original user's version.
+ I clone to download repositories and work on my local computer with repositories stored in GitHub.
+ I use branches within a repository to maintain different versions of my work.
+ 
