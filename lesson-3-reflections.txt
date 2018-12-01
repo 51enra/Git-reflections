@@ -15,3 +15,7 @@ Describe the differences between forks, clones, and branches. When would you use
  I clone to download repositories and work on my local computer with repositories stored in GitHub.
  I use branches within a repository to maintain different versions of my work.
  
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+   Meaning: Using git fetch instead of pull. If I do that, I can easily inspect and edit all
+   files of the remote locally. I can use git diff to find out about merge conflicts.
+ 
