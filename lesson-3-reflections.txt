@@ -15,7 +15,16 @@ Describe the differences between forks, clones, and branches. When would you use
  I clone to download repositories and work on my local computer with repositories stored in GitHub.
  I use branches within a repository to maintain different versions of my work.
  
- What is the benefit of having a copy of the last known state of the remote stored locally?
-   Meaning: Using git fetch instead of pull. If I do that, I can easily inspect and edit all
-   files of the remote locally. I can use git diff to find out about merge conflicts.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  Meaning: Using git fetch instead of pull. If I do that, I can easily inspect and edit all
+  files of the remote locally. I can use git diff to find out about merge conflicts.
+  
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+ Doing changes in a different branch makes sense when I want to postpone the decision whether the changes
+ should go to the master or not. Reasons could be that I want other people to review my changes first, that
+ changes to the master require some form of approval or milestone to be reached, I may decide to
+ consider the changes as experimental, or alignment of my changes with concurrent changes is required.
+ Advantage of changing the master directly is a less complicated version control. If multiple collaborators
+ each work on their own branch, the sequence and process of merging everything must be carefully controlled.
+ 
  
